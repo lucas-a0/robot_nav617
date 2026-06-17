@@ -1,0 +1,8 @@
+source;share/mid360_nav_bringup/hook/cmake_prefix_path.ps1
+source;share/mid360_nav_bringup/hook/cmake_prefix_path.dsv
+source;share/mid360_nav_bringup/hook/cmake_prefix_path.sh
+source;share/mid360_nav_bringup/local_setup.bash
+source;share/mid360_nav_bringup/local_setup.dsv
+source;share/mid360_nav_bringup/local_setup.ps1
+source;share/mid360_nav_bringup/local_setup.sh
+source;share/mid360_nav_bringup/local_setup.zsh

@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: d1_base_bridge
+Version: 0.0.1
+Summary: Bridge standard /cmd_vel to D1 SDK /d15020024/command/cmd_twist with safety limits and watchdog.
+Maintainer: sunrise
+Maintainer-email: sunrise@example.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

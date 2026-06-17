@@ -1,0 +1,2 @@
+[console_scripts]
+d1_base_bridge = d1_base_bridge.d1_base_bridge_node:main
