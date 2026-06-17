@@ -1,0 +1,126 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sunrise/mid360_nav_project/ros2_ws/build/robot_nav617_navigation
+-- Install configuration: ""
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/map_nav2
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/map_nav2/map.pgm
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/map_nav2/map.yaml
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/map_nav2/README.md
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/lio_mid360.yaml
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/rviz_mid360.rviz
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/grid
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/grid/README.md
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/costmap_params.yaml
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/map.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/poses.txt
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/67.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/18.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/25.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/68.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/40.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/48.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/8.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/55.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/31.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/54.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/23.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/57.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/15.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/46.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/41.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/10.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/56.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/29.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/66.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/59.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/58.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/72.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/5.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/36.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/32.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/47.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/26.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/7.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/33.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/1.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/0.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/9.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/69.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/12.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/17.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/14.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/39.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/62.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/30.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/74.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/3.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/20.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/24.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/22.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/50.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/35.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/19.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/11.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/44.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/65.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/45.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/21.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/27.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/43.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/28.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/38.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/2.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/49.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/37.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/52.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/64.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/76.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/73.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/51.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/75.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/34.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/60.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/6.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/70.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/63.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/4.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/42.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/71.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/53.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/16.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/13.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/patches/61.pcd
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/pcd/README.md
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/config/nav2_params.yaml
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/ament_index/resource_index/package_run_dependencies/robot_nav617_navigation
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/ament_index/resource_index/parent_prefix_path/robot_nav617_navigation
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/environment/ament_prefix_path.dsv
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/environment/path.sh
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/environment/path.dsv
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/local_setup.bash
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/local_setup.sh
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/local_setup.zsh
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/local_setup.dsv
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/package.dsv
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/ament_index/resource_index/packages/robot_nav617_navigation
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/cmake/robot_nav617_navigationConfig.cmake
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/cmake/robot_nav617_navigationConfig-version.cmake
+-- Installing: /home/sunrise/mid360_nav_project/ros2_ws/install/robot_nav617_navigation/share/robot_nav617_navigation/package.xml

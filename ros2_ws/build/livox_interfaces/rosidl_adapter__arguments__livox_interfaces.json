@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_interfaces",
+  "non_idl_tuples": [
+    "/home/sunrise/mid360_nav_project/ros2_ws/src/livox_interfaces:msg/CustomPoint.msg",
+    "/home/sunrise/mid360_nav_project/ros2_ws/src/livox_interfaces:msg/CustomMsg.msg"
+  ]
+}

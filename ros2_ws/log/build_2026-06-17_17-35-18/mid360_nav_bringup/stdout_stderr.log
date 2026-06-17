@@ -1,0 +1,1 @@
+CMake Error: The source "/home/sunrise/mid360_nav_project/ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup/CMakeLists.txt" does not match the source "/home/sunrise/mid360_nav_project/ros2_ws/src/mid360_nav_bringup/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.

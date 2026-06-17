@@ -1,0 +1,241 @@
+[0.331s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '--base-paths', 'ros2_ws/src']
+[0.331s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['ros2_ws/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=False, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff98e3e350>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff9902e020>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff9902e020>>)
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/mid360_nav_project/ros2_ws/src'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/behavior_tree) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extension 'ros'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extensions ['cmake', 'python']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extension 'cmake'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extension 'python'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extensions ['python_setup_py']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/robot_nav617/bringup/mid360_nav_bringup' with type 'ros.ament_cmake' and name 'mid360_nav_bringup'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extension 'ros'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extension 'python'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/config) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extension 'ros'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extensions ['cmake', 'python']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extension 'cmake'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extension 'python'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extensions ['python_setup_py']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control) by extension 'python_setup_py'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extension 'ros'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extensions ['cmake', 'python']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extension 'cmake'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extension 'python'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extensions ['python_setup_py']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/robot_nav617/control/base_bridge/d1_base_bridge' with type 'ros.ament_python' and name 'd1_base_bridge'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extension 'ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extensions ['cmake', 'python']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extension 'cmake'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extension 'python'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extensions ['python_setup_py']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/launch) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/navigation) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/robot_nav617/navigation' with type 'ros.ament_cmake' and name 'robot_nav617_navigation'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extension 'ros'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extensions ['cmake', 'python']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extension 'cmake'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/perception) by extension 'python_setup_py'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extension 'cmake'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/scripts) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extensions ['python_setup_py']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/robot_nav617/sensors/lidar/livox_interfaces' with type 'ros.ament_cmake' and name 'livox_interfaces'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2) by extension 'ros'
+[0.515s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/robot_nav617/sensors/lidar/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extension 'colcon_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extension 'ros'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extensions ['cmake', 'python']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extension 'cmake'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extension 'python'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extensions ['python_setup_py']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/robot_nav617/voice) by extension 'python_setup_py'
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

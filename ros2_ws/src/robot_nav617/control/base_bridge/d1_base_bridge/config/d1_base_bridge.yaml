@@ -1,0 +1,23 @@
+d1_base_bridge:
+  ros__parameters:
+    input_cmd_vel_topic: "/cmd_vel"
+    output_cmd_twist_topic: "/d15020024/command/cmd_twist"
+    status_topic: "/d1_base_bridge/status"
+
+    # D1 控制器实际订阅 geometry_msgs/msg/TwistStamped
+    # 可选值：twist_stamped / twist
+    output_msg_type: "twist_stamped"
+    output_frame_id: "base_link"
+
+    # 安全限速，默认速度很低，避免机器人突然高速运动
+    max_linear_x: 0.08
+    max_linear_y: 0.00
+    max_angular_z: 0.20
+
+    # 死区，避免低速抖动
+    linear_deadband: 0.005
+    angular_deadband: 0.005
+
+    # watchdog 安全保护
+    watchdog_timeout_sec: 0.5
+    watchdog_publish_rate: 20.0

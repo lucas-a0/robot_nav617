@@ -1,0 +1,37 @@
+[1.343s] Invoking command in '/home/sunrise/mid360_nav_project/ros2_ws/src/d1_base_bridge': PYTHONPATH=/home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/d1_base_bridge build --build-base /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/build install --record /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/install.log --single-version-externally-managed install_data
+[1.871s] running egg_info
+[1.897s] creating ../../build/d1_base_bridge/d1_base_bridge.egg-info
+[1.898s] writing ../../build/d1_base_bridge/d1_base_bridge.egg-info/PKG-INFO
+[1.899s] writing dependency_links to ../../build/d1_base_bridge/d1_base_bridge.egg-info/dependency_links.txt
+[1.899s] writing entry points to ../../build/d1_base_bridge/d1_base_bridge.egg-info/entry_points.txt
+[1.899s] writing requirements to ../../build/d1_base_bridge/d1_base_bridge.egg-info/requires.txt
+[1.900s] writing top-level names to ../../build/d1_base_bridge/d1_base_bridge.egg-info/top_level.txt
+[1.900s] writing manifest file '../../build/d1_base_bridge/d1_base_bridge.egg-info/SOURCES.txt'
+[1.981s] reading manifest file '../../build/d1_base_bridge/d1_base_bridge.egg-info/SOURCES.txt'
+[1.983s] writing manifest file '../../build/d1_base_bridge/d1_base_bridge.egg-info/SOURCES.txt'
+[1.983s] running build
+[1.983s] running build_py
+[1.983s] creating /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/build/lib/d1_base_bridge
+[1.984s] copying d1_base_bridge/__init__.py -> /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/build/lib/d1_base_bridge
+[1.984s] copying d1_base_bridge/d1_base_bridge_node.py -> /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/build/lib/d1_base_bridge
+[1.985s] running install
+[1.992s] running install_lib
+[2.019s] creating /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/python3.10/site-packages/d1_base_bridge
+[2.020s] copying /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/build/lib/d1_base_bridge/__init__.py -> /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/python3.10/site-packages/d1_base_bridge
+[2.020s] copying /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/build/lib/d1_base_bridge/d1_base_bridge_node.py -> /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/python3.10/site-packages/d1_base_bridge
+[2.021s] byte-compiling /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/python3.10/site-packages/d1_base_bridge/__init__.py to __init__.cpython-310.pyc
+[2.022s] byte-compiling /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/python3.10/site-packages/d1_base_bridge/d1_base_bridge_node.py to d1_base_bridge_node.cpython-310.pyc
+[2.024s] running install_data
+[2.024s] creating /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/share/ament_index/resource_index/packages
+[2.025s] copying resource/d1_base_bridge -> /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/share/ament_index/resource_index/packages
+[2.025s] copying package.xml -> /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/share/d1_base_bridge
+[2.026s] creating /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/share/d1_base_bridge/launch
+[2.026s] copying launch/d1_base_bridge.launch.py -> /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/share/d1_base_bridge/launch
+[2.027s] creating /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/share/d1_base_bridge/config
+[2.027s] copying config/d1_base_bridge.yaml -> /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/share/d1_base_bridge/config
+[2.027s] running install_egg_info
+[2.056s] Copying ../../build/d1_base_bridge/d1_base_bridge.egg-info to /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/python3.10/site-packages/d1_base_bridge-0.0.1-py3.10.egg-info
+[2.059s] running install_scripts
+[2.114s] Installing d1_base_bridge script to /home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/d1_base_bridge
+[2.115s] writing list of installed files to '/home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/install.log'
+[2.178s] Invoked command in '/home/sunrise/mid360_nav_project/ros2_ws/src/d1_base_bridge' returned '0': PYTHONPATH=/home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/mid360_nav_project/ros2_ws/install/d1_base_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/d1_base_bridge build --build-base /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/build install --record /home/sunrise/mid360_nav_project/ros2_ws/build/d1_base_bridge/install.log --single-version-externally-managed install_data
